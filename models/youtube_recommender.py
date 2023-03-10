@@ -1,5 +1,5 @@
 from typing import TypedDict
-from ..youtube import YouTube
+from youtube import YouTube
 
 
 class Resource(TypedDict):
