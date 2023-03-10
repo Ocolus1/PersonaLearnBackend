@@ -1,5 +1,5 @@
 from openai import Completion
-from backend.models.query_predictor import query_template
+from models.query_predictor import query_template
 
 QUERY_TEMPLATER = query_template.QueryTemplate()
 

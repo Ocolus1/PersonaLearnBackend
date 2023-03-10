@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 import openai
 
-from backend.models.query_predictor.index import predict_query_from_transcript
+from models.query_predictor.index import predict_query_from_transcript
 
 load_dotenv(os.path.join(os.path.dirname(__file__), "../../.env"))
 openai.api_key = os.getenv("OPENAI_API_KEY")
