@@ -2,9 +2,9 @@ import os
 import logging
 from typing import TypedDict
 from flask import Flask, request
-from .models.query_predictor.index import predict_query_from_transcript
-from .models.youtube_recommender import Resource, related_resources_from_query
-from .models.transcribe_video import transcribe_youtube_video, Transcription
+from models.query_predictor.index import predict_query_from_transcript
+from models.youtube_recommender import Resource, related_resources_from_query
+from models.transcribe_video import transcribe_youtube_video, Transcription
 
 # Set Up Logging
 
